@@ -1,0 +1,19 @@
+@media screen and (min-width: 576px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
+
+
+
+body {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');
+}
+
+section {
+    background-color: white;
+    padding: 5px;
+    padding-top: 5px;
+    margin-bottom: 25px;
+}
+
