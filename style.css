@@ -11,8 +11,47 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color: lightgrey;
     padding: 5px;
     padding-top: 5px;
     margin-bottom: 25px;
+}
+
+
+.row {
+  margin-left: 10px;
+  border: black;
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: thin solid; 
+  border-top: thin solid; 
+  border-bottom: thin solid;
+  border-collapse: collapse;
+}
+
+#row1{
+  background-color: gray;
+}
+
+#row2 {
+  border: black;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: thin solid; 
+  border-top: thin solid; 
+  border-bottom: thin solid;
+  border-collapse: collapse;
+  background-color: grey;
+}
+
+#mainrow {
+  background-color: lightgrey;
+  padding-left: 10px;
+}
+
+#contactrow {
+  background-color: gray;
 }
