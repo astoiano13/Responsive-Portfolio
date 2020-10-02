@@ -1,0 +1,20 @@
+{
+  "name": "Responsive-Portfolio",
+  "version": "1.0.0",
+  "description": "This homework assignment was our second, requiring us to create the base of our own portfolio, as well as test our ability to create a semi-responsive website on multiple different sizes of screens using HTML, CSS and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astoiano13/Responsive-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astoiano13/Responsive-Portfolio/issues"
+  },
+  "homepage": "https://github.com/astoiano13/Responsive-Portfolio#readme"
+}

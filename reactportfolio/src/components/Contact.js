@@ -1,22 +1,13 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Responsive Portfolio</title>
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+import React from 'react';
+import '../style.css'
+ 
+const Contact = () => {
+    return (
+      
+      <body>
+      <div>
+          <h1>Contact</h1>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Aaron Stoiano</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +22,9 @@
             </div>
         </div>
     </nav>
+       </div>
 
-    <br>
-
-    <section class="container">
+       <section class="container">
         
         <section class="mb-4">
 
@@ -50,7 +40,7 @@
 
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
+                                <input type="text" id="name" name="name" class="form-control"></input>
                                 <label for="name" class="">Your name</label>
                             </div>
                         </div>
@@ -59,7 +49,7 @@
                         
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
+                                <input type="text" id="email" name="email" class="form-control"></input>
                                 <label for="email" class="">Your email</label>
                             </div>
                         </div>
@@ -72,7 +62,7 @@
 
                         <div class="col-md-12">
                             <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
+                                <input type="text" id="subject" name="subject" class="form-control"></input>
                                 <label for="subject" class="">Subject</label>
                             </div>
                         </div>
@@ -128,6 +118,15 @@
             crossorigin="anonymous"></script>
 </section>
 
-</body>
 
-</html>
+
+       
+      </body>
+
+
+
+
+    );
+}
+ 
+export default Contact;
